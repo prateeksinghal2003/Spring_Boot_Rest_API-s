@@ -1,0 +1,1 @@
+This project demonstrates the implementation of RESTful APIs using Spring Boot. It supports full CRUD operations (Create, Read, Update, Delete) and is connected to a PostgreSQL database for data persistence.
