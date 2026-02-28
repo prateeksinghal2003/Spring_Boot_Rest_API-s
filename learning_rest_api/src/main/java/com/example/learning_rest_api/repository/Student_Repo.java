@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 
 @Repository
-//this is repo will be connected to controller
+//this  repo will be connected to controller
 
 //first parameter is the  name of the entity.
 public interface Student_Repo extends JpaRepository<Student,Long>

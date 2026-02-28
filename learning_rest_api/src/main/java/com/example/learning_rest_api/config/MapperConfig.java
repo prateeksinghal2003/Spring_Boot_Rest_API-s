@@ -14,3 +14,14 @@ public class MapperConfig {
         return new ModelMapper();
     }
 }
+
+
+//modelMapper is just a bean name; ModelMapper is a third-party library class,
+//and the @Bean method registers its object in the Spring container for dependency injection.
+
+
+/*Spring startup:
+Calls method
+Creates ModelMapper object
+Stores in IoC container
+Injects wherever needed */

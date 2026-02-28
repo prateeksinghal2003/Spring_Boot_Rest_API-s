@@ -67,6 +67,7 @@ public class Student_Controller
 
     public ResponseEntity<Student_dto> getStudentById(@PathVariable Long id)
     {
+        //creating a response
         return ResponseEntity.ok(studentService.getStudentById(id));
     }
 

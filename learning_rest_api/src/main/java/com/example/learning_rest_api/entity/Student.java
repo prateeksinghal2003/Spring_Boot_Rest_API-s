@@ -21,3 +21,25 @@ public class Student
     private  String name;
     private  String email;
 }
+
+//Lombok is a Java library that automatically writes repetitive code for you during compilation.
+//
+//You write small code → Lombok generates big code behind the scenes.
+//
+//What repetitive code?
+//
+//Normally Java classes need:
+//
+//getters
+//
+//        setters
+//
+//constructors
+//
+//        toString
+//
+//equals & hashCode
+//
+//builder pattern
+//
+//Instead of writing 50 lines… you write 2 lines.
